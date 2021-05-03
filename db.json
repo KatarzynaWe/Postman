@@ -1,0 +1,53 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "pierwszy post",
+      "author": "Kasia"
+    },
+    {
+      "id": 2,
+      "title": "drugi post",
+      "author": "Ola"
+    },
+    {
+      "id": 3,
+      "title": "trzeci post",
+      "author": "Filip"
+    },
+    {
+      "id": 4,
+      "title": "czwarty post",
+      "author": "Bartek"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    },
+    {
+      "body": "new comment 123",
+      "id": 2
+    },
+    {
+      "id": 3,
+      "body": "new comment 222",
+      "postId": 2
+    },
+    {
+      "body": "new comment",
+      "postId": 3,
+      "id": 5
+    },
+    {
+      "body": "new comment",
+      "postId": 3,
+      "id": 6
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
